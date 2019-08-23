@@ -1,0 +1,29 @@
+
+.colorRange {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 300px;
+    height: 150px;
+    background-color: rgba(33, 33, 33, .5);
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.colorRange div {
+    display: flex;
+    align-items: space-between;
+    justify-content: space-between;
+    width: 100%;
+}
+.colorRange div input {
+    width: 70%;
+}
+.colorRange div label {
+    color: white;
+    margin-bottom: 0;
+}
